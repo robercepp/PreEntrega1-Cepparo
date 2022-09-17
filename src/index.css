@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* controles generales para todas las páginas */
+
+@font-face {
+  font-family: "bree";
+  src: url(../public/resources/fonts/BreeSerif-Regular.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "ruda-regular";
+  src: url(../public/resources/fonts/Ruda-Regular.ttf);
+}
+
+@font-face {
+  font-family: "ruda-bold";
+  src: url(../public/resources/fonts/Ruda-Bold.ttf);
+}
+
+@font-face {
+  font-family: "ruda-semibold";
+  src: url(../public/resources/fonts/Ruda-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "ruda-extrabold";
+  src: url(../public/resources/fonts/Ruda-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "ruda-black";
+  src: url(../public/resources/fonts/Ruda-Black.ttf);
+}
+
+@font-face {
+  font-family: "ruda-medium";
+  src: url(../public/resources/fonts//Ruda-Medium.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "ruda-regular";
+  list-style: none;
+  font-size: clamp(12px, 2vw, 20px);
+  color: hsl(221, 56%, 31%);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: hsl(221, 56%, 31%);
+  font-family: "ruda-regular";
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.titles {
+  font-family: "bree";
 }
