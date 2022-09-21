@@ -61,6 +61,21 @@
   border-radius: 5px;
 }
 
+.button-cantidad{
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.button-cantidad:active{
+  transition: all 0.1s ease-in-out;
+  background-color: hsl(221, 56%, 31%);
+  color: white;
+}
+
 .button:hover {
   transition: all 0.7s ease-in-out;
   background-color: hsl(221, 56%, 31%);
@@ -133,6 +148,7 @@ box-shadow: 0 0 5px lightgray;
 
 .card-button {
   border: none;
+  font-size: 12px;
   background-color: transparent;
   padding: 2px 8px;
   border-radius: 5px;

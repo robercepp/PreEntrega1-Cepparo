@@ -1,5 +1,5 @@
-import {useState} from 'react';
-
+import React, {useState} from 'react';
+import ContadorCarrito from './ContadorCarrito';
 
 const ItemListContainer = ({numero}) => {
     const[posicion] = useState([
@@ -114,10 +114,7 @@ const ItemListContainer = ({numero}) => {
                 <p className='titulo-producto'>Precio: ${producto.precio}</p>
                 <p className='titulo-producto'>stock: {producto.stock} unidades</p>
             </div>
-            <form className='cart-form' action="">
-                <input className='card-imput' type="number" min="1" />
-                <button className='card-button' type='submit'>Agregar al Carrito</button>
-            </form>
+            <ContadorCarrito/>
         </div>
     );
 }
