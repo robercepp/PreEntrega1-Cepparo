@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import MainSection from './components/mainsection/MainSection';
-import Navbar from './components/navbar/Navbar';
+import MainSection from './content/mainsection/MainSection';
+import Navbar from './content/navbar/Navbar';
 
 /*ItemListContainer se encuentra dentro de MainSection.jsx por razones de organización y prolijidad*/
 
